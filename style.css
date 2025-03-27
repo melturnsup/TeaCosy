@@ -1,0 +1,167 @@
+html {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    background-color: black;
+}
+
+h2,
+h3, 
+h4, 
+h5, 
+p, 
+a {
+    color: hsl(25, 100%, 97%, 0.9);
+    font-family: Helvetica;
+
+}
+
+
+
+/* Header & Navigation */
+header {
+    display: inline-flex;
+    max-width: 1300px;
+    z-index: 1;
+    
+
+}
+
+#logo {
+    height: 50px;
+    padding: 10px;
+}
+
+
+
+/* Navigation */
+ul {
+    display: inline-flex;
+    position: relative;
+    left: 720px;
+    
+}
+
+li {
+
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+a {
+    color: seashell;
+}
+
+
+
+/* Mission Box*/
+
+#mission-container {
+    display: flex;
+    justify-content: center;
+}
+
+.mission-banner {
+    background-image: url('Resources/img/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+    bottom: 2.5px;
+    align-content: center;
+    margin-bottom: 40px;
+
+}
+
+#mission-highlight {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    width: 1200px;
+   
+
+}
+
+
+
+/* Tea of Month Images*/
+
+.tea-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#tea-of-month-container {
+    margin-bottom: 40px;
+    
+}
+
+.card-box-center {
+    display:flex;
+    justify-content: center;
+    width: auto;
+}
+
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+
+}
+
+
+.card {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+}
+
+/* Location Box */
+
+#location-section {
+    background-image: url('Resources/img/img-locations-background.jpg');
+    height: 500px;
+    margin-bottom: 40px;
+
+}
+
+
+#location-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+
+}
+
+.location-box {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    background: black;
+}
+
+
+
+/* Footer */
+
+footer {
+    text-align: center
+
+}
+
+#copyright {
+    text-align: left;
+}
